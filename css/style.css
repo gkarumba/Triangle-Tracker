@@ -5,6 +5,8 @@ html{
 body{
     background: linear-gradient(to bottom right, red,blue);
 }
+
+/* NAVBAR SECTION  */
 .navbar{
     background: #ffffff;
     display: flex;
@@ -25,6 +27,7 @@ font-size: 25px;
     border-bottom: #6F1C74 solid 2px;
 }
 
+/* TRIANGLE SECTION */
 .triangle{
     position: relative;
     display:flex;
@@ -54,6 +57,7 @@ input[type=text]{
     left: 560px;
 }
 
+/* CHECK SECTION */
 .check{
     display:flex;
     text-align: center;
@@ -73,9 +77,8 @@ input[type=text]{
     color: #342ECE;
 }
 
-
-.response{
-    position: relative;
+/* RESPONSE SECTION  */
+.display_text{
     display:flex;
     text-align: center;
     justify-content: center;
@@ -86,6 +89,14 @@ input[type=text]{
     padding-top: 10px;
     padding-bottom: 10px;
     border: #000000 solid 1px;
+}
+
+/* CANVAS SECTION */
+.response{
+    position: relative;
+    display:flex;
+    text-align: center;
+    justify-content: center;
 }
 #myCanvas{
     background: #ffffff;
