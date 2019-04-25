@@ -41,17 +41,17 @@ input[type=text]{
 #side_a {
     position: absolute;
     top: 150px;
-    left: 500px;
+    left: 460px;
 }
 #side_b {
     position: absolute;
     top: 150px;
-    left: 700px;
+    left: 660px;
 }
 #side_c {
     position: absolute;
     top: 260px;
-    left: 600px;
+    left: 560px;
 }
 .response{
     position: relative;
