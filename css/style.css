@@ -24,3 +24,30 @@ body{
     color:#6F1C74;
     border-bottom: #6F1C74 solid 2px;
 }
+.triangle{
+    position: relative;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+input[type=text]{
+    width:90px;
+    height:20px;
+    color: #000000;
+    border:#6079B9 solid 1px;
+}
+#side_a {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+#side_b {
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}
+#side_c {
+    position: absolute;
+    top: 260px;
+    left: 600px;
+}
