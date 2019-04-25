@@ -53,6 +53,27 @@ input[type=text]{
     top: 260px;
     left: 560px;
 }
+
+.check{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+#submit{
+    background: #6079B9;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#submit:hover{
+    background: #D42622;
+    color: #342ECE;
+}
+
+
 .response{
     position: relative;
     display:flex;
