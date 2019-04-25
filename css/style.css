@@ -1,0 +1,7 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Black Ops One';
+}
+body{
+    background: linear-gradient(to bottom right, red,blue);
+}
