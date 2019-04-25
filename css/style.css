@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    font-family: ''Courier New', Courier, monospace';
+    font-family: 'Courier New', Courier, monospace;
 }
 body{
     background: linear-gradient(to bottom right, red,blue);
@@ -30,6 +30,7 @@ font-size: 25px;
     display:flex;
     text-align: center;
     justify-content: center;
+    margin: 20px;
 }
 input[type=text]{
     width:90px;
