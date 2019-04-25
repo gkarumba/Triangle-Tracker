@@ -1,29 +1,30 @@
 html{
     box-sizing: border-box;
-    font-family: 'Black Ops One';
+    font-family: ''Courier New', Courier, monospace';
 }
 body{
     background: linear-gradient(to bottom right, red,blue);
 }
 .navbar{
-    background: #FFFFFF;
+    background: #ffffff;
     display: flex;
     text-align: center;
     justify-content: center;
     margin-bottom: 20px;
 }
-.logo {
-    float:left;
+.logo{
+    float: left;
     width: 50px;
     height: 50px;
 }
-.name {
-    font-size: 45px;
+.name{
+font-size: 25px;
 }
 .name:hover{
     color:#6F1C74;
     border-bottom: #6F1C74 solid 2px;
 }
+
 .triangle{
     position: relative;
     display:flex;
