@@ -53,3 +53,19 @@ input[type=text]{
     top: 260px;
     left: 600px;
 }
+.response{
+    position: relative;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+#display_text{
+    background: #ffffff;
+    color: #6F1C74;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #000000 solid 1px;
+}
+#myCanvas{
+    background: #ffffff;
+}
