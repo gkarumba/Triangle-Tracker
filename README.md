@@ -8,7 +8,7 @@ This is a simple website that helps one determine whether any three numbers can 
 ## Behavior Driven Development
 | Input            | Behavior                         | Output                        |
 | ------------------- | ----------------------------- | ----------------------------- |
-| Click on check button| Checks whether the values form a triangle | The result meesage displayed on a new paragraph|
+| Click on check button| Checks whether the values form a triangle | The result message is displayed on a new paragraph|
 
 ## Features
 - The main page provides a user with information on how to use the site plus the input fields.
