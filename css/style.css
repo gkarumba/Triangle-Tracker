@@ -1,0 +1,138 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: linear-gradient(to bottom right, red,blue);
+}
+
+/* NAVBAR SECTION  */
+.navbar{
+    background: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.logo{
+    float: none;
+    width: 50px;
+    height: 50px;
+}
+.name{
+font-size: 25px;
+}
+.name:hover{
+    color:#6F1C74;
+    border-bottom: #6F1C74 solid 2px;
+    cursor: pointer;
+}
+
+/* USER_GUIDE SECTION */
+.user_guide{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+.user_guide p{
+    background: #ffffff;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+/* TRIANGLE SECTION */
+.triangle{
+    position: relative;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+input[type=text]{
+    width:90px;
+    height:20px;
+    color: #000000;
+    border:#6079B9 solid 1px;
+}
+#side_a {
+    position: absolute;
+    top: 150px;
+    left: 505px;
+}
+#side_b {
+    position: absolute;
+    top: 150px;
+    left: 660px;
+}
+#side_c {
+    position: absolute;
+    top: 260px;
+    left: 580px;
+}
+
+/* CHECK SECTION */
+.check{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+#submit{
+    background: #6079B9;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: #6079B9 solid 10px;
+}
+#submit:hover{
+    background: #D42622;
+    color: #342ECE;
+}
+
+/* RESPONSE SECTION  */
+.display_text{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+#display_text{
+    background: #ffffff;
+    color: #6F1C74;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #000000 solid 1px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/* FOOTER SECTION */
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #D42622;
+    color: #ffffff;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:700px){
+    #side_a {
+        position: absolute;
+        top: 150px;
+        left: 160px;
+    }
+    #side_b {
+        position: absolute;
+        top: 150px;
+        left: 330px;
+    }
+    #side_c {
+        position: absolute;
+        top: 260px;
+        left: 250px;
+    }
+}
