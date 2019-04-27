@@ -89,6 +89,8 @@ input[type=text]{
     padding-top: 10px;
     padding-bottom: 10px;
     border: #000000 solid 1px;
+    font-size: 30px;
+    font-weight: 100;
 }
 
 /* CANVAS SECTION */
@@ -101,3 +103,5 @@ input[type=text]{
 #myCanvas{
     background: #ffffff;
 }
+
+
