@@ -12,7 +12,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .logo{
     float: none;
@@ -25,6 +25,7 @@ font-size: 25px;
 .name:hover{
     color:#6F1C74;
     border-bottom: #6F1C74 solid 2px;
+    cursor: pointer;
 }
 
 /* USER_GUIDE SECTION */
@@ -32,7 +33,7 @@ font-size: 25px;
     display:flex;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    margin: 5px;
 }
 .user_guide p{
     background: #ffffff;
@@ -47,7 +48,7 @@ font-size: 25px;
     display:flex;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    margin: 5px;
 }
 input[type=text]{
     width:90px;
@@ -58,7 +59,7 @@ input[type=text]{
 #side_a {
     position: absolute;
     top: 150px;
-    left: 460px;
+    left: 505px;
 }
 #side_b {
     position: absolute;
@@ -68,7 +69,7 @@ input[type=text]{
 #side_c {
     position: absolute;
     top: 260px;
-    left: 560px;
+    left: 580px;
 }
 
 /* CHECK SECTION */
@@ -76,7 +77,7 @@ input[type=text]{
     display:flex;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    margin: 5px;
 }
 #submit{
     background: #6079B9;
@@ -96,7 +97,7 @@ input[type=text]{
     display:flex;
     text-align: center;
     justify-content: center;
-    margin: 20px;
+    margin: 5px;
 }
 #display_text{
     background: #ffffff;
@@ -117,4 +118,21 @@ input[type=text]{
     color: #ffffff;
 }
 
-
+/* MEDIA QUERIES */
+@media screen and (max-width:700px){
+    #side_a {
+        position: absolute;
+        top: 150px;
+        left: 160px;
+    }
+    #side_b {
+        position: absolute;
+        top: 150px;
+        left: 330px;
+    }
+    #side_c {
+        position: absolute;
+        top: 260px;
+        left: 250px;
+    }
+}
