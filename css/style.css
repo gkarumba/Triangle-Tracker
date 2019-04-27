@@ -82,6 +82,7 @@ input[type=text]{
     display:flex;
     text-align: center;
     justify-content: center;
+    margin: 20px;
 }
 #display_text{
     background: #ffffff;
@@ -93,15 +94,13 @@ input[type=text]{
     font-weight: 100;
 }
 
-/* CANVAS SECTION */
-.response{
-    position: relative;
-    display:flex;
+/* FOOTER SECTION */
+.footer{
+    display: flex;
     text-align: center;
     justify-content: center;
-}
-#myCanvas{
-    background: #ffffff;
+    background: #D42622;
+    color: #ffffff;
 }
 
 
