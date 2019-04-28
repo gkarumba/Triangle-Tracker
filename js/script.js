@@ -1,19 +1,11 @@
 const checkBtn = document.getElementById('submit');
 
-function submitForm(){
-    let submitBtn = document.getElementById("submit");
-    // submitBtn.submit(); // Submit the form
-    submitBtn.reset();  // Reset all form data
-    return false; 
-}
-
 function checkTriangle(){
     let sideA = parseInt(document.getElementById('side_a').value);
     let sideB = parseInt(document.getElementById('side_b').value);
     let sideC = parseInt(document.getElementById('side_c').value);
     
     let resetForm = document.getElementById("triangle_form");
-    // submitBtn.submit(); // Submit the form
     resetForm.reset(); 
 
     let sides = [];

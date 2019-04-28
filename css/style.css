@@ -13,6 +13,7 @@ body{
     text-align: center;
     justify-content: center;
     margin-bottom: 5px;
+    box-shadow: 5px 5px 5px #7B49C1;
 }
 .logo{
     float: none;
@@ -21,6 +22,7 @@ body{
 }
 .name{
 font-size: 25px;
+
 }
 .name:hover{
     color:#6F1C74;
@@ -40,6 +42,7 @@ font-size: 25px;
     color: #000000;
     font-size: 30px;
     font-weight: bold;
+    box-shadow: 5px 5px 5px #7B49C1;
 } 
 
 /* TRIANGLE SECTION */
@@ -50,11 +53,15 @@ font-size: 25px;
     justify-content: center;
     margin: 5px;
 }
+.triangle_image{
+    box-shadow: 5px 5px 5px #7B49C1;
+}
 input[type=text]{
     width:90px;
     height:20px;
     color: #000000;
     border:#6079B9 solid 1px;
+    box-shadow: 3px 3px 3px #6079B9;
 }
 #side_a {
     position: absolute;
@@ -86,6 +93,7 @@ input[type=text]{
     height: 40px;
     font-size: 30px;
     border-radius: #6079B9 solid 10px;
+    box-shadow: 5px 5px 5px #7B49C1;
 }
 #submit:hover{
     background: #D42622;
@@ -107,6 +115,7 @@ input[type=text]{
     border: #000000 solid 1px;
     font-size: 30px;
     font-weight: 100;
+    box-shadow: 5px 5px 5px #7B49C1;
 }
 
 /* FOOTER SECTION */
@@ -116,6 +125,7 @@ input[type=text]{
     justify-content: center;
     background: #D42622;
     color: #ffffff;
+    box-shadow: 5px 5px 5px #7B49C1;
 }
 
 /* MEDIA QUERIES */
